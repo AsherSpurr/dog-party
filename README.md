@@ -3,23 +3,15 @@
 ## Project Spec  
 [https://frontend.turing.edu/projects/M2-static-comp-challenge.html](https://frontend.turing.edu/projects/M2-static-comp-challenge.html)
 
-## Setup
-1. Fork + clone down this repo
-1. `cd` into the directory
-1. Install the library dependencies with `npm install`
-1. To verify that it is setup correctly, run `npm start` in your terminal. Go to `http://localhost:8080/` and you should see a page with the Turing logo image and a beautiful gradient background. If that's the case, you're good to go.
-2. Enter `control + c` in your terminal to stop the server at any time.
+## Deploy Link 
 
-## Specification
+## What & Why
+This static comp allowed me to flex my CSS and HTML skills with comp recreation.
+There were no creative liberties given, I was tasked with creating the pixel-perfect copy. This application is not responsive to screen size, we had a 4-hour time block to complete this according to the display of a 13" Macbook Pro.
+**This took me 3 hours, roughly 2.5 focused hours, to complete.**
 
-This static comp challenge will keep you exercising that HTML/SCSS muscle. :muscle: You will be asked to recreate the image below by recreating the screenshot using HTML and SCSS.
+## Side-by-side comparison
 
-In other static comp challenges (but not this one), we'll give you a bit of flexibility, however the objective is to build something that **very closely** represents the original design.
+https://www.loom.com/share/97369b1a06844640b7ef9b8ab5334a82?sid=4ea16ea4-f2b5-41d7-b83b-3e5aa1e4c099
 
-Once you get into the workforce, building out comps that reflect the designer's choice in layout, spacing, font, imagery, and color to the smallest detail, is a requirement.
 
-## The Challenge
-
-Your challenge is to recreate the following image using HTML and SCSS. You've been given some initial files to get started that you must use.
-
-![this](dog-party-spec.png).
