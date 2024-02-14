@@ -2,16 +2,143 @@
 
 body {
   background: url('../../dist/images/park.jpg') center/cover;
-  height: 100vh;
+  height: 140vh;
   width: 100%;
   margin: 0;
+  overflow-y: scroll;
+  font-family: 'Raleway';
 }
 
 nav {
-  // Example of using a variable:
   background-color: $secondary-accent-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  font-weight: 600;
 }
 
 .dog-icon {
   width: 50px;
+  margin-left: 30px;
+}
+
+.links-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.dog-1-img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 5px $main-accent-color solid;
+  margin: 20px;
+}
+
+button {
+  background-color: white;
+  border: 6px $main-accent-color solid;
+  height: 50px;
+  width: 180px;
+  color: $main-accent-color;
+  font-size: 25px;
+  font-family: 'Raleway';
+  font-weight: 500;
+}
+
+.intro-button {
+ width: 200px;
+ height: 50px;
+}
+
+.dog-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  height: 750px;
+}
+
+.dog-2-img,
+.dog-3-img,
+.dog-4-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 2px $main-accent-color solid;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+p {
+  margin: 45px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+footer {
+  background-color: $main-accent-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+}
+
+h3 {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.media-links-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.media-image {
+  height: 70px;
+  width: 70px;
+}
+
+.github-link {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 15px;
 }
