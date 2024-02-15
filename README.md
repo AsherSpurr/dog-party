@@ -3,7 +3,7 @@
 ## Project Spec  
 [https://frontend.turing.edu/projects/M2-static-comp-challenge.html](https://frontend.turing.edu/projects/M2-static-comp-challenge.html)
 
-## Deploy Link 
+## Installation instructions
 
 ## What & Why
 This static comp allowed me to flex my CSS and HTML skills with comp recreation.
